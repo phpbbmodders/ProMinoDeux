@@ -341,6 +341,54 @@ input.button2:hover {
 	border-color: #2996cc;
 }
 
+/* Headings and labels inside panels
+---------------------------------------- */
+.panel h2,
+.content h2,
+.rules h2 {
+	color: #333333;
+	border-bottom-color: #dddddd;
+}
+
+label,
+dt label {
+	color: #333333;
+}
+
+/* Tabs
+---------------------------------------- */
+.tabs .tab > a {
+	background-color: #f7f7f7;
+	background-image: none;
+	border-color: #cccccc;
+	color: #666666;
+	text-shadow: none;
+}
+
+.tabs .tab > a:hover {
+	background-color: #e6e6e6;
+	color: #333333;
+}
+
+.tabs .activetab > a,
+.tabs .activetab > a:hover {
+	background-color: #2996cc;
+	border-color: #2996cc;
+	color: #ffffff;
+}
+
+/* Secondary action: Preview is blue, only Submit is red
+---------------------------------------- */
+input.button1[name="preview"] {
+	background-color: #2996cc;
+	border-color: #2996cc;
+}
+
+input.button1[name="preview"]:hover {
+	background-color: #21b5e4;
+	border-color: #21b5e4;
+}
+
 /* Footer
 ---------------------------------------- */
 .copyright {
