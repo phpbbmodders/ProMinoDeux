@@ -16,7 +16,7 @@ It keeps prosilver's templates, JavaScript and images, and only overrides colour
 
 ## Acknowledgments
 
-- Design language and colour palette based on [ProMino](https://github.com/hanakin/ProMino), a GPL-2.0 phpBB style project, and its design guide (`assets/design/StyleGuide.jpg`). No ProMino code is copied.
+- Design language and colour palette based on [ProMino](https://github.com/hanakin/ProMino), a GPL-2.0 phpBB style project by [Mike Miday](http://www.midaym.com/), and its design guide (`assets/design/StyleGuide.jpg`). No ProMino code is copied.
 - The "online" ribbon icon is prosilver's `icon_user_online` (phpBB Limited, GPL-2.0), recoloured.
 - Design and code assisted by [Claude](https://www.anthropic.com/claude).
 
