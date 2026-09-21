@@ -201,8 +201,13 @@ blockquote {
 }
 
 .codebox p {
-	color: #cccccc;
-	border-bottom-color: #444444;
+	background-color: #eeeeee;
+	color: #666666;
+	border-bottom-color: #cccccc;
+}
+
+.codebox p a {
+	color: #2996cc;
 }
 
 .codebox code {
@@ -451,6 +456,33 @@ ul.cplist {
 
 .cp-main .pm-message {
 	border-color: #dddddd;
+}
+
+/* Unread forum and topic rows: dark row with light text (as in the design guide)
+---------------------------------------- */
+li.row:has(dl[class*="_unread"]) {
+	background-color: #555555;
+	border-bottom-color: #444444;
+	color: #dddddd;
+}
+
+li.row:has(dl[class*="_unread"]):hover {
+	background-color: #666666;
+}
+
+li.row:has(dl[class*="_unread"]) a.forumtitle,
+li.row:has(dl[class*="_unread"]) a.topictitle {
+	color: #ffffff;
+}
+
+li.row:has(dl[class*="_unread"]) a.forumtitle:hover,
+li.row:has(dl[class*="_unread"]) a.topictitle:hover {
+	color: #ff8095;
+}
+
+li.row:has(dl[class*="_unread"]) strong,
+li.row:has(dl[class*="_unread"]) dd {
+	color: #dddddd;
 }
 
 /* List titles: plain dark text, accent colour on hover (as in the design guide)
