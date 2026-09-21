@@ -1,0 +1,19 @@
+<svg id="Vrstva_1" data-name="Vrstva 1" xmlns="http://www.w3.org/2000/svg" width="58" height="58" viewBox="0 0 58 58">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #000;
+      }
+
+      .cls-2 {
+        isolation: isolate;
+        font-size: 7.99px;
+        fill: #fff;
+        font-family: Verdana;
+      }
+    </style>
+  </defs>
+  <title>icon_user_online</title>
+  <rect class="cls-1" x="25.87" y="-20.1" width="14.18" height="86.07" transform="translate(-6.57 30.02) rotate(-45)"/>
+  <text class="cls-2" transform="translate(20.68 14.7) rotate(44.98)">ONLINE</text>
+</svg>

@@ -260,22 +260,22 @@ blockquote {
 }
 
 a.button[href*="mode=reply"] {
-	background-color: #cc2944;
-	border-color: #cc2944;
+	background-color: #3177a0;
+	border-color: #3177a0;
 }
 
 a.button[href*="mode=reply"]:hover,
 a.button[href*="mode=reply"]:focus {
-	background-color: #b32340;
-	border-color: #b32340;
+	background-color: #3c92c3;
+	border-color: #3c92c3;
 }
 
 a.button1,
 input.button1,
 input.button3 {
-	background-color: #cc2944;
+	background-color: #3177a0;
 	background-image: none;
-	border-color: #cc2944;
+	border-color: #3177a0;
 	box-shadow: none;
 	filter: none;
 	color: #ffffff;
@@ -298,8 +298,8 @@ input.button2 {
 a.button1:hover,
 input.button1:hover,
 input.button3:hover {
-	background-color: #b32340;
-	border-color: #b32340;
+	background-color: #3c92c3;
+	border-color: #3c92c3;
 	color: #ffffff;
 }
 
@@ -382,7 +382,7 @@ dt label {
 	color: #ffffff;
 }
 
-/* Secondary action: Preview is blue, only Submit is red
+/* Secondary action: Preview is the regular blue, only Submit is the deeper blue
 ---------------------------------------- */
 input.button1[name="preview"] {
 	background-color: #2996cc;
@@ -483,6 +483,10 @@ li.row:has(dl[class*="_unread"]) a.topictitle:hover {
 li.row:has(dl[class*="_unread"]) strong,
 li.row:has(dl[class*="_unread"]) dd {
 	color: #dddddd;
+}
+
+li.row:has(dl[class*="_unread"]) .username-coloured {
+	color: #ffb3c0 !important;
 }
 
 /* List titles: plain dark text, accent colour on hover (as in the design guide)
