@@ -1,8 +1,8 @@
 # ProMinoDeux
 
-A CSS-only child style for phpBB 3.3 that re-skins prosilver with a flat, light design: a dark rounded header bar, bright blue category bands, white rows with thin dividers, blue links with a crimson hover, flat uppercase buttons, and card-style posts.
+A CSS-only child style for phpBB 3.3 that re-skins prosilver with a flat, light design: a dark rounded header bar, dark gray category bands, white rows with thin dividers, blue links with a crimson hover, flat uppercase buttons, and card-style posts.
 
-It keeps prosilver's templates, JavaScript and images, and only overrides colours and shapes in `theme/stylesheet.css`, so it follows prosilver through phpBB 3.3 updates.
+It keeps prosilver's templates, JavaScript and images, and only overrides colours and shapes in `theme/stylesheet.css` (plus a recoloured icon in `theme/en/`), so it follows prosilver through phpBB 3.3 updates.
 
 ## Install
 
@@ -16,7 +16,8 @@ It keeps prosilver's templates, JavaScript and images, and only overrides colour
 
 ## Acknowledgments
 
-- Design language inspired by [ProMino](https://github.com/hanakin/ProMino) (GPL-2.0). No ProMino code is copied.
+- Design language and colour palette based on [ProMino](https://github.com/hanakin/ProMino), a GPL-2.0 phpBB style project, and its design guide (`assets/design/StyleGuide.jpg`). No ProMino code is copied.
+- The "online" ribbon icon is prosilver's `icon_user_online` (phpBB Limited, GPL-2.0), recoloured.
 - Design and code assisted by [Claude](https://www.anthropic.com/claude).
 
 ## License
