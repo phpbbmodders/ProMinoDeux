@@ -389,6 +389,70 @@ input.button1[name="preview"]:hover {
 	border-color: #21b5e4;
 }
 
+/* Control panels (MCP, UCP, private messages)
+---------------------------------------- */
+.navigation a,
+.rtl .navigation a {
+	background: #f7f7f7;
+	filter: none;
+	color: #333333;
+}
+
+.navigation a:hover {
+	background: #e6e6e6;
+	color: #cc2944;
+}
+
+.navigation .active-subsection a,
+.navigation .active-subsection a:hover {
+	background: #2996cc;
+	color: #ffffff;
+}
+
+@media only screen and (max-width: 900px), only screen and (max-device-width: 900px) {
+	#navigation a,
+	.rtl #navigation a {
+		background: #f7f7f7;
+	}
+
+	#navigation .active-subsection a {
+		background: #2996cc;
+	}
+}
+
+.panel-container h3,
+.panel-container hr,
+.cp-menu hr {
+	border-color: #dddddd;
+}
+
+.panel-container .panel {
+	background-color: #ffffff;
+}
+
+.panel-container .panel li.row {
+	border-bottom-color: #dddddd;
+	border-top-color: #ffffff;
+}
+
+ul.cplist {
+	border-top-color: #dddddd;
+}
+
+.panel-container .panel li.header dd,
+.panel-container .panel li.header dt {
+	color: #333333;
+}
+
+.panel-container table.table1 thead th {
+	color: #333333;
+	border-bottom-color: #4d4d4d;
+}
+
+.cp-main .pm-message {
+	border-color: #dddddd;
+}
+
 /* Footer
 ---------------------------------------- */
 .copyright {
