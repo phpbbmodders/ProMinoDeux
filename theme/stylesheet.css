@@ -1,0 +1,348 @@
+/*
+--------------------------------------------------------------
+ProMinoDeux - a prosilver child style for phpBB 3.3
+
+The design language (flat surfaces, dark header bar, bright category
+bands, white rows, blue links with a crimson hover) is inspired by
+ProMino, a GPL-2.0 style project for phpBB. No ProMino code is copied;
+these rules only re-colour and re-shape prosilver's own markup.
+
+Palette
+  text            #333333     page background  #f2f2f2
+  link / accent   #2996cc     link hover       #cc2944
+  header bar      #333333     category band    #21b5e4
+  topic band      #4d4d4d     borders          #cccccc / #dddddd
+  row hover       #e6e6e6
+--------------------------------------------------------------
+*/
+
+@import url("../../prosilver/theme/stylesheet.css");
+
+/* Base
+---------------------------------------- */
+html, body {
+	color: #333333;
+	background-color: #f2f2f2;
+}
+
+body {
+	font-family: "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+	color: #333333;
+}
+
+h3 {
+	color: #2996cc;
+	border-bottom-color: #cccccc;
+}
+
+a {
+	color: #2996cc;
+}
+
+a:hover {
+	color: #cc2944;
+}
+
+.wrap {
+	background-color: #ffffff;
+	border-color: #dddddd;
+	border-radius: 6px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+/* Header bar and navigation
+---------------------------------------- */
+.headerbar {
+	background-color: #333333;
+	background-image: none;
+	color: #ffffff;
+	border-radius: 6px;
+}
+
+.headerbar a {
+	color: #cccccc;
+}
+
+.headerbar a:hover {
+	color: #ffffff;
+}
+
+.navbar {
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	border-radius: 6px;
+}
+
+.navbar a {
+	color: #333333;
+}
+
+.navbar a:hover {
+	color: #cc2944;
+}
+
+.badge {
+	background-color: #cc2944;
+	color: #ffffff;
+}
+
+/* Category and topic bands, rows
+---------------------------------------- */
+.forabg {
+	background-color: #21b5e4;
+	background-image: none;
+	border-radius: 4px;
+}
+
+.forumbg {
+	background-color: #4d4d4d;
+	background-image: none;
+	border-radius: 4px;
+}
+
+.forumbg .header a,
+.forabg .header a,
+th a {
+	color: #ffffff;
+}
+
+.forumbg .header a:hover,
+.forabg .header a:hover,
+th a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+ul.forums {
+	background-color: #ffffff;
+	background-image: none;
+}
+
+ul.topiclist li {
+	color: #666666;
+}
+
+li.row {
+	border-top-color: #ffffff;
+	border-bottom-color: #dddddd;
+}
+
+li.row strong {
+	color: #333333;
+}
+
+li.row:hover {
+	background-color: #e6e6e6;
+}
+
+li.row:hover dd {
+	border-left-color: #cccccc;
+}
+
+.bg1 {
+	background-color: #ffffff;
+}
+
+.bg2 {
+	background-color: #f7f7f7;
+}
+
+.bg3 {
+	background-color: #eeeeee;
+}
+
+table.zebra-list tr:nth-child(odd) td,
+ul.zebra-list li:nth-child(odd) {
+	background-color: #ffffff;
+}
+
+table.zebra-list tr:nth-child(even) td,
+ul.zebra-list li:nth-child(even) {
+	background-color: #f7f7f7;
+}
+
+/* Posts
+---------------------------------------- */
+.post {
+	border: 1px solid #cccccc;
+	border-radius: 4px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.postbody {
+	color: #333333;
+}
+
+.postbody h3 a {
+	color: #2996cc;
+}
+
+.postbody h3 a:hover {
+	color: #cc2944;
+}
+
+.postprofile {
+	border-color: #dddddd;
+}
+
+blockquote {
+	background-color: #f7f7f7;
+	border-color: #cccccc;
+	border-left: 4px solid #2996cc;
+	border-radius: 0 3px 3px 0;
+}
+
+.codebox {
+	background-color: #2b2b2b;
+	border-color: #444444;
+}
+
+.codebox p {
+	color: #cccccc;
+	border-bottom-color: #444444;
+}
+
+.codebox code {
+	background-color: #2b2b2b;
+	color: #e6e6e6;
+}
+
+.panel {
+	background-color: #ffffff;
+	color: #333333;
+	border: 1px solid #dddddd;
+	border-radius: 4px;
+}
+
+/* Buttons
+---------------------------------------- */
+.button {
+	background-color: #2996cc;
+	background-image: none;
+	border-color: #2996cc;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	filter: none;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-shadow: none;
+	border-radius: 2px;
+}
+
+.button:hover,
+.button:focus {
+	background-color: #21b5e4;
+	background-image: none;
+	border-color: #21b5e4;
+	filter: none;
+	color: #ffffff;
+	text-shadow: none;
+}
+
+.button .icon,
+.button-secondary {
+	color: #ffffff;
+}
+
+.button:hover .icon,
+.button:focus .icon,
+.button-secondary:hover,
+.button-secondary:focus {
+	color: #ffffff;
+}
+
+a.button[href*="mode=reply"] {
+	background-color: #cc2944;
+	border-color: #cc2944;
+}
+
+a.button[href*="mode=reply"]:hover,
+a.button[href*="mode=reply"]:focus {
+	background-color: #b32340;
+	border-color: #b32340;
+}
+
+a.button1,
+input.button1,
+input.button3 {
+	background-color: #cc2944;
+	background-image: none;
+	border-color: #cc2944;
+	box-shadow: none;
+	filter: none;
+	color: #ffffff;
+	text-transform: uppercase;
+	border-radius: 2px;
+}
+
+a.button2,
+input.button2 {
+	background-color: #2996cc;
+	background-image: none;
+	border-color: #2996cc;
+	box-shadow: none;
+	filter: none;
+	color: #ffffff;
+	text-transform: uppercase;
+	border-radius: 2px;
+}
+
+a.button1:hover,
+input.button1:hover,
+input.button3:hover {
+	background-color: #b32340;
+	border-color: #b32340;
+	color: #ffffff;
+}
+
+a.button2:hover,
+input.button2:hover {
+	background-color: #21b5e4;
+	border-color: #21b5e4;
+	color: #ffffff;
+}
+
+/* Pagination
+---------------------------------------- */
+.pagination li a {
+	background: #ffffff;
+	border-color: #cccccc;
+	color: #333333;
+	border-radius: 2px;
+}
+
+.pagination li.active span {
+	background: #2996cc;
+	border-color: #2996cc;
+	color: #ffffff;
+	border-radius: 2px;
+}
+
+.pagination li a:hover,
+.pagination li a:hover .icon {
+	background: #cc2944;
+	border-color: #cc2944;
+	color: #ffffff;
+}
+
+/* Forms
+---------------------------------------- */
+.inputbox {
+	background-color: #ffffff;
+	border-color: #cccccc;
+	color: #333333;
+}
+
+.inputbox:hover,
+.inputbox:focus {
+	border-color: #2996cc;
+}
+
+/* Footer
+---------------------------------------- */
+.copyright {
+	color: #777777;
+}
