@@ -2,7 +2,7 @@
 --------------------------------------------------------------
 ProMinoDeux - a prosilver child style for phpBB 3.3
 
-The design language (flat surfaces, dark header bar, bright category
+The design language (flat surfaces, dark header bar, dark category
 bands, white rows, blue links with a crimson hover) is inspired by
 ProMino, a GPL-2.0 style project for phpBB. No ProMino code is copied;
 these rules only re-colour and re-shape prosilver's own markup.
@@ -10,7 +10,7 @@ these rules only re-colour and re-shape prosilver's own markup.
 Palette
   text            #333333     page background  #f2f2f2
   link / accent   #2996cc     link hover       #cc2944
-  header bar      #333333     category band    #21b5e4
+  header bar      #333333     category band    #4d4d4d
   topic band      #4d4d4d     borders          #cccccc / #dddddd
   row hover       #e6e6e6
 --------------------------------------------------------------
@@ -92,7 +92,7 @@ a:hover {
 /* Category and topic bands, rows
 ---------------------------------------- */
 .forabg {
-	background-color: #21b5e4;
+	background-color: #4d4d4d;
 	background-image: none;
 	border-radius: 4px;
 }
