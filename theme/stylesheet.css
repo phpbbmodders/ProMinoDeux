@@ -453,8 +453,25 @@ ul.cplist {
 	border-color: #dddddd;
 }
 
-/* Footer
+/* List titles: plain dark text, accent colour on hover (as in the design guide)
 ---------------------------------------- */
+a.forumtitle,
+a.topictitle {
+	color: #333333;
+}
+
+a.forumtitle:hover,
+a.topictitle:hover {
+	color: #cc2944;
+}
+
+/* Field in an error state
+---------------------------------------- */
+.inputbox.error,
+input.error,
+textarea.error {
+	border-color: #cc2944;
+}
 .copyright {
 	color: #777777;
 }
