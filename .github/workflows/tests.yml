@@ -1,0 +1,16 @@
+name: Tests
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  css:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm install --no-save --package-lock=false postcss@8
+      - name: Parse stylesheets
+        run: |
+          node -e 'const fs = require("fs"), css = require("postcss"); for (const file of ["theme/stylesheet.css", "theme/en/stylesheet.css"]) css.parse(fs.readFileSync(file, "utf8"), {from: file});'
