@@ -458,37 +458,6 @@ ul.cplist {
 	border-color: #dddddd;
 }
 
-/* Unread forum and topic rows: dark row with light text (as in the design guide)
----------------------------------------- */
-li.row:has(dl[class*="_unread"]) {
-	background-color: #555555;
-	border-bottom-color: #444444;
-	color: #dddddd;
-}
-
-li.row:has(dl[class*="_unread"]):hover {
-	background-color: #666666;
-}
-
-li.row:has(dl[class*="_unread"]) a.forumtitle,
-li.row:has(dl[class*="_unread"]) a.topictitle {
-	color: #ffffff;
-}
-
-li.row:has(dl[class*="_unread"]) a.forumtitle:hover,
-li.row:has(dl[class*="_unread"]) a.topictitle:hover {
-	color: #ff8095;
-}
-
-li.row:has(dl[class*="_unread"]) strong,
-li.row:has(dl[class*="_unread"]) dd {
-	color: #dddddd;
-}
-
-li.row:has(dl[class*="_unread"]) .username-coloured {
-	color: #ffb3c0 !important;
-}
-
 /* List titles: plain dark text, accent colour on hover (as in the design guide)
 ---------------------------------------- */
 a.forumtitle,
