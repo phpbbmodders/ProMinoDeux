@@ -10,8 +10,9 @@ these rules only re-colour and re-shape prosilver's own markup.
 Palette
   text            #333333     page background  #f2f2f2
   link / accent   #2996cc     link hover       #cc2944
+  primary action  #3177a0
   header bar      #333333     category band    #4d4d4d
-  topic band      #4d4d4d     borders          #cccccc / #dddddd
+  borders         #cccccc / #dddddd
   row hover       #e6e6e6
 --------------------------------------------------------------
 */
@@ -239,9 +240,9 @@ blockquote {
 
 .button:hover,
 .button:focus {
-	background-color: #21b5e4;
+	background-color: #3177a0;
 	background-image: none;
-	border-color: #21b5e4;
+	border-color: #3177a0;
 	filter: none;
 	color: #ffffff;
 	text-shadow: none;
@@ -259,6 +260,7 @@ blockquote {
 	color: #ffffff;
 }
 
+/* Primary actions */
 a.button[href*="mode=reply"] {
 	background-color: #3177a0;
 	border-color: #3177a0;
@@ -266,8 +268,8 @@ a.button[href*="mode=reply"] {
 
 a.button[href*="mode=reply"]:hover,
 a.button[href*="mode=reply"]:focus {
-	background-color: #3c92c3;
-	border-color: #3c92c3;
+	background-color: #2996cc;
+	border-color: #2996cc;
 }
 
 a.button1,
@@ -298,15 +300,15 @@ input.button2 {
 a.button1:hover,
 input.button1:hover,
 input.button3:hover {
-	background-color: #3c92c3;
-	border-color: #3c92c3;
+	background-color: #2996cc;
+	border-color: #2996cc;
 	color: #ffffff;
 }
 
 a.button2:hover,
 input.button2:hover {
-	background-color: #21b5e4;
-	border-color: #21b5e4;
+	background-color: #3177a0;
+	border-color: #3177a0;
 	color: #ffffff;
 }
 
@@ -382,7 +384,8 @@ dt label {
 	color: #ffffff;
 }
 
-/* Secondary action: Preview is the regular blue, only Submit is the deeper blue
+/* Secondary action: Preview uses the regular blue;
+   Submit remains the deeper primary-action blue.
 ---------------------------------------- */
 input.button1[name="preview"] {
 	background-color: #2996cc;
@@ -390,8 +393,8 @@ input.button1[name="preview"] {
 }
 
 input.button1[name="preview"]:hover {
-	background-color: #21b5e4;
-	border-color: #21b5e4;
+	background-color: #3177a0;
+	border-color: #3177a0;
 }
 
 /* Control panels (MCP, UCP, private messages)
@@ -414,7 +417,8 @@ input.button1[name="preview"]:hover {
 	color: #ffffff;
 }
 
-@media only screen and (max-width: 900px), only screen and (max-device-width: 900px) {
+@media only screen and (max-width: 900px),
+only screen and (max-device-width: 900px) {
 	#navigation a,
 	.rtl #navigation a {
 		background: #f7f7f7;
@@ -458,7 +462,7 @@ ul.cplist {
 	border-color: #dddddd;
 }
 
-/* List titles: plain dark text, accent colour on hover (as in the design guide)
+/* List titles: plain dark text, accent colour on hover
 ---------------------------------------- */
 a.forumtitle,
 a.topictitle {
@@ -477,6 +481,7 @@ input.error,
 textarea.error {
 	border-color: #cc2944;
 }
+
 .copyright {
 	color: #777777;
 }

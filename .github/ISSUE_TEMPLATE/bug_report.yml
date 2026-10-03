@@ -1,0 +1,22 @@
+name: Bug report
+description: Report a problem with the style.
+labels: [bug]
+body:
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual appearance
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: phpBB version and browser
+    validations:
+      required: true
