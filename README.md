@@ -4,6 +4,18 @@ A CSS-only child style for phpBB 3.3 that re-skins prosilver with a flat, light 
 
 It keeps prosilver's templates, JavaScript and images, and only overrides colours and shapes in `theme/stylesheet.css` (plus a recoloured icon in `theme/en/`), so it follows prosilver through phpBB 3.3 updates.
 
+## Screenshots
+
+<table>
+  <tr>
+    <td align="center"><a href="docs/images/prominodeux-index.png"><img src="docs/images/prominodeux-index.png" width="280" alt="The board index in ProMinoDeux"></a><br>Board index</td>
+    <td align="center"><a href="docs/images/prominodeux-viewtopic.png"><img src="docs/images/prominodeux-viewtopic.png" width="280" alt="A topic in ProMinoDeux"></a><br>A topic</td>
+    <td align="center"><a href="docs/images/prominodeux-index-phone.png"><img src="docs/images/prominodeux-index-phone.png" width="140" alt="The board index on a phone"></a><br>On a phone</td>
+  </tr>
+</table>
+
+Click a screenshot for the full size. More screenshots, including a forum, the posting page and a topic on a phone, are in [`docs/images`](docs/images).
+
 ## Install
 
 1. Copy this folder to `phpBB/styles/prominodeux/`.
