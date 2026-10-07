@@ -14,7 +14,7 @@ It keeps prosilver's templates, JavaScript and images, and only overrides colour
   </tr>
 </table>
 
-Click a screenshot for the full size. More screenshots, including a forum, the posting page and a topic on a phone, are in [`docs/images`](docs/images).
+Click a screenshot for the full size. More screenshots, including a forum, the posting page and a topic on a phone, are on the [Screenshots wiki page](https://github.com/phpbbmodders/ProMinoDeux/wiki/Screenshots).
 
 ## Install
 
